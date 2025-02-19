@@ -1,0 +1,28 @@
+body{
+    height:100vh;
+    font-family: 'Roboto' sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer{
+    flex-grow:0;
+    background-color: #1F2937;
+}
+
+.content{
+    flex-grow:1
+}
+
+.part-1{
+    background-color: #1F2937;
+}
+
+.part-2{
+    background-color: white;
+}
+
+.part-3{
+    background-color: #E5E7EB;
+}
