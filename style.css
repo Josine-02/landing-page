@@ -8,13 +8,19 @@ body{
     flex-direction: column;
 }
 
+.header,.footer,.content{
+
+}
+
 a{
     text-decoration: none;
+    color: white;
 }
 
 ul{
     list-style-type: none;
 }
+
 .header,.footer{
     display:flex;
     flex-grow:0;
@@ -27,6 +33,15 @@ ul{
 .header{
     height: 60px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.header-links{
+    display: flex;
+    gap: 20px;
+    padding-right: 10px;;
 }
 
 .header,.footer,.part-1{
