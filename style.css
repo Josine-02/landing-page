@@ -171,5 +171,25 @@ img{
     padding:10px;
     font-size: medium;
     color:#1F2937;
+}
+
+.part-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
 
 }
+.quote{
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+    color: #1F2937;
+   
+}
+.credits{
+    align-self: flex-end;
+    font-style: light italic;
+    font-weight: 900;
+}
+
