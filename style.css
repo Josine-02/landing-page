@@ -1,3 +1,8 @@
+/* to do
+-sign-up button links
+ -make other pages links content basic*/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body{
@@ -23,6 +28,12 @@ ul{
 
 .footer{
     height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 12px;
+
 }
 
 .header{
@@ -91,7 +102,7 @@ ul{
     color:#E5E7EB
 }
 
-button{
+.sign-up1 button{
     background-color: #3882F6;
     color:white;
     font-size: 16px;
@@ -212,7 +223,7 @@ font-weight:lighter;
 
 }
 
-.sign-up button{
+.sign-up2 button{
         background-color: #3882F6;
         color:white;
         font-size: 16px;
