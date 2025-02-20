@@ -35,13 +35,24 @@ ul{
 
 }
 
+.container-header{
+display:flex;
+height: 60px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 10px;
+font-size: 24px;
+width: 900px;
+}
+
 .header{
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 10px;
-    font-size: 24px;
+    display:flex;
+    justify-content: center;
+}
+
+.header{
+   
 }
 
 .header-links{
@@ -51,6 +62,7 @@ ul{
     font-size: 18px;
     color:#E5E7EB
 }
+
 
 .header,.footer,.part-1{
     background-color: #1F2937;
@@ -72,15 +84,21 @@ ul{
     justify-content: space-evenly;
 }
 
-.part-1,.part-2,.part-3,.part-4{
+/* .part-1,.part-2,.part-3,.part-4{
     display: flex;
     flex-grow: 1;
-}
+} */
 
 .part-1{
-    display: flex;
+   display: flex;
+   justify-content: center;
+}
+
+.container-1{ display: flex;
     justify-content: space-evenly;
     align-items: center;
+width: 900px;
+margin: 60px;
 }
 
 .text-one{
@@ -120,13 +138,12 @@ img{
     background-color: white;
 
 }
-.part-3{
-    background-color: #E5E7EB;
-}
+
 
 .part-2{
     display:flex;
     flex-direction: column;
+    margin: 60px;
 }
 
 .trips-header{
@@ -135,7 +152,7 @@ img{
     font-size:36px;
     font-weight: 900;
     color:#1F2937;
-    margin: 15px;;
+    margin-bottom: 40px;;
 }
 
 .trips{
@@ -144,8 +161,6 @@ img{
     gap: 20px;
     flex-wrap: wrap;
 }
-
-
 
 .biking,.hiking,.sailing,.horse-riding{
     display: flex;
@@ -176,19 +191,27 @@ img{
 }
 
 .part-3{
+    background-color: #E5E7EB;
+    display:flex;
+    justify-content: center;
+}
+
+.container-3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 10px;
-
+    padding: 60px 10px;
+    max-width: 600px;
 }
+
 .quote{
     font-size: 36px;
     font-weight:lighter;
     font-style: italic;
     color: #1F2937;
-   
+    align-items: center;
 }
+
 .credits{
     align-self: flex-end;
     font-style: light italic;
@@ -196,13 +219,17 @@ img{
 }
 
 .part-4{
+    display:flex;
+    align-items: center;
     width: 900px;
+    height: 100px;
     display: flex;
     align-self: center;
     justify-content: space-evenly;
     background-color: #3882F6;
     border-radius: 8px;
     padding: 20px;
+    margin: 80px;
 }
 
 .action{
