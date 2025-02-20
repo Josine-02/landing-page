@@ -3,7 +3,6 @@
 body{
     height:100vh;
     font-family: 'Roboto', sans-serif;
-    
     display: flex;
     flex-direction: column;
 }
@@ -131,7 +130,9 @@ img{
 
 .trips{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 
@@ -142,15 +143,6 @@ img{
     justify-content: center;
     align-items: center;
 }
-
-.activities {
-    width: 100px;
-    height: 100px;
-    border: 2px solid;
-    border-color: #3882F6;
-    border-radius: 8px;
-}
-
 
 .box{
     width: 200px;
@@ -193,3 +185,41 @@ img{
     font-weight: 900;
 }
 
+.part-4{
+    width: 900px;
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.action{
+    display: flex;
+    flex-direction: column;
+}
+.header-action{
+font-size: 20px;
+color:#E5E7EB;
+font-weight:600;
+}
+
+.text-action{
+    font-size: 10px;
+color:#E5E7EB;
+font-weight:lighter;
+
+}
+
+.sign-up button{
+        background-color: #3882F6;
+        color:white;
+        font-size: 16px;
+        font-weight: 900;
+        padding: 10px 20px;
+        border-radius:8px;
+        border: 1px solid #E5E7EB;
+        cursor: pointer;
+        padding: 10px 20px;
+}
