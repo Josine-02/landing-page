@@ -134,13 +134,7 @@ img{
     justify-content: space-evenly;
 }
 
-.box{
-    width: 100px;
-    height: 100px;
-    border: 2px solid;
-    border-color: #3882F6;
-    border-radius: 8px;
-}
+
 
 .biking,.hiking,.sailing,.horse-riding{
     display: flex;
@@ -149,10 +143,33 @@ img{
     align-items: center;
 }
 
-/* .activities img{
+.activities {
     width: 100px;
     height: 100px;
     border: 2px solid;
     border-color: #3882F6;
     border-radius: 8px;
-} */
+}
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    border-color: #3882F6;
+    border-radius: 8px;
+}
+
+#activity{
+    width: 180px;
+    height: 180px;
+}
+
+.beschrijving{
+    width:200px;
+    text-align: center;
+    padding:10px;
+    font-size: medium;
+    color:#1F2937;
+
+}
